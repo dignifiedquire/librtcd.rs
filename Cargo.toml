@@ -1,0 +1,12 @@
+[package]
+name = "librtcd"
+version = "0.1.0"
+authors = ["Friedel Ziegelmayer <dignifiedquire@gmail.com>"]
+
+build="build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen="~0.21.2"
+pkg-config="~0.3.9"
