@@ -1,12 +1,10 @@
 [package]
+authors = ["Friedel Ziegelmayer <dignifiedquire@gmail.com>"]
 name = "librtcd"
 version = "0.1.0"
-authors = ["Friedel Ziegelmayer <dignifiedquire@gmail.com>"]
-
-build="build.rs"
 
 [dependencies]
+libc = "^0.2"
 
-[build-dependencies]
-bindgen="~0.21.2"
-pkg-config="~0.3.9"
+[dependencies.nice]
+path = "../libnice.rs"
